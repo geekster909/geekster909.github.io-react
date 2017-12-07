@@ -1,7 +1,6 @@
 {
   "name": "my-site",
   "version": "0.1.0",
-  "homepage": "http://justin-bond.com/test",
   "private": true,
   "dependencies": {
     "autoprefixer": "7.1.6",
