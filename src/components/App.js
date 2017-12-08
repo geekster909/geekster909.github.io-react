@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../css/style.scss';
 import Header from './Header';
+import Intro from './Intro';
 import Projects from './Projects';
 import Footer from './Footer';
 
@@ -17,7 +18,10 @@ class App extends Component {
     return (
       <div className="App">
         <Header social={this.social} />
-        <Projects />
+        <div className="page--home">
+          <Intro />
+          <Projects />
+        </div>
         <Footer social={this.social} />
       </div>
 
