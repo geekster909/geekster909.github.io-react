@@ -3,6 +3,8 @@ import jblogo from '../images/JB_Logo-white-transparent.png';
 
 class Header extends Component {
   render() {
+    const { social } = this.props;
+
     return (
       <header className="site-header">
         <div className="container">
@@ -18,9 +20,9 @@ class Header extends Component {
               </ul>
             </nav>
             <div className="nav--social">                    
-              <a href="" target="_blank"><i className="fa fa-github fa-lg"></i></a>
-              <a href="" target="_blank"><i className="fa fa-linkedin-square fa-lg"></i></a>
-              <a href="" target="_blank"><i className="fa fa-codepen fa-lg"></i></a>
+              <a href={social.github} target="_blank"><i className="fa fa-github fa-lg"></i></a>
+              <a href={social.linkedin} target="_blank"><i className="fa fa-linkedin-square fa-lg"></i></a>
+              <a href={social.codepen} target="_blank"><i className="fa fa-codepen fa-lg"></i></a>
             </div>
           </div>
         </div>
