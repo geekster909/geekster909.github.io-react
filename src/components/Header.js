@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
 import jblogo from '../images/JB_Logo-white-transparent.png';
 
 class Header extends Component {
@@ -25,8 +24,6 @@ class Header extends Component {
             </div>
           </div>
         </div>
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1 className="App-title">Welcome to React</h1>
       </header>
     );
   }
