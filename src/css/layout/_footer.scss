@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+.site-footer {
+    background-color: #3e4042;
+    color: #fff;
+}
+.footer--blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+    text-align: center;
+    
+    img {
+        width: 100px;
+    }
+    span {
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+    a {
+        margin: 0 5px;
+        color: #fff;
+
+        &:hover {
+            color: $red;
+        }
+    }
+}
+
+.footer--copyright {
+    clear: both;
+    background-color: #3e4042;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px 0;
+    letter-spacing: 1px;
+}
