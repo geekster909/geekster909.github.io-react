@@ -110,11 +110,16 @@
 			line-height: 0;
 			overflow: hidden;
 			@include media($mobile-up){
-				// @include span-columns(6);
-				// @include omega(2n);
+				float: left;
+				width: 48%;
+				margin-left: 1%;
+				margin-right: 1%;
 			}
 
 			@include media($tablet-up){
+				width: 31%;
+				margin-left: 1%;
+				margin-right: 1%;
 				// @include span-columns(4);
 				// @include omega-reset(2n);
 				// @include omega(3n);
